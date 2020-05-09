@@ -1,11 +1,29 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <--not exactly sure what should go here in terms of metadata-->
       <title>myriam and emma's cooking blog</title>
     </head>
     
     <body>
       <h1>Myriam and Emma's Cooking Blog</h1>
+      <h2>
+        <ul>
+          <li>Home</li>
+          <li>Recipe Box</li>
+          <li>Suggest Recipes</li>
+          <li>About</li>
+        </ul>
+      </h2>
+      <h3>
+        <--ADD IN IMAGE URL HERE FOR THE MAIN PAGE IMAGE-->
+        <img src = "SOME IMAGE" alt= "Picture of Myriam and Emma Cooking">
+      </h3>
+      
+      <--FIGURE OUT HOW TO INSERT THE PREVIEWS OF THE BLOGS HERE-->
+      <--photograph-->
+      <--timestamp-->
+      <--title of the blog-->
       
     </body>
     
