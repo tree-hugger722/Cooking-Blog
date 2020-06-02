@@ -1,37 +1,42 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-      <--not exactly sure what should go here in terms of metadata-->
-      <title>myriam and emma's cooking blog</title>
-    </head>
+<html lang='en'>
+  <head>
+    <!--not exactly sure what should go here in terms of metadata-->
+    <title>myriam and emma's cooking blog</title>
+  </head>
+  
+  <body>
+    <div class="color-strip">
+      <!--color strip across top of website, requires CSS I believe-->
+    </div>
+
+    <!--title-->
+    <header class="site-header">
+      <div class="wrap">
+	<h1 align=left>Myriam and Emma's Cooking Blog</h1>
+	
+	<!--menu-->
+	<h2 align=right>
+	  <nav id=navbar class=nav>
+	    <ul class=nav-list>
+              <li>Recipe Box</li>
+              <li>Suggest Recipes</li>
+              <li>About</li>
+	    </ul>
+	</h2>
+      </div>
+    </header>
+
+    <div>
+      <!--ADD IN IMAGE URL HERE FOR THE MAIN PAGE IMAGE-->
+      <img src = "SOME IMAGE" alt= "Picture of Myriam and Emma Cooking">
+    </div>
     
-    <body>
-      <div>
-        <--color strip across top of website, requires CSS I believe-->
-      </div>
-      
-      <div class="header">
-        <h1 align=left>Myriam and Emma's Cooking Blog</h1>
-        <h2 align=right>
-        <ul>
-          <li>Home</li>
-          <li>Recipe Box</li>
-          <li>Suggest Recipes</li>
-          <li>About</li>
-        </ul>
-      </h2>
-      </div>
-      
-      <div>
-        <--ADD IN IMAGE URL HERE FOR THE MAIN PAGE IMAGE-->
-        <img src = "SOME IMAGE" alt= "Picture of Myriam and Emma Cooking">
-      </div>
-      
-      <--FIGURE OUT HOW TO INSERT THE PREVIEWS OF THE BLOGS HERE-->
-      <--photograph-->
-      <--timestamp-->
-      <--title of the blog-->
-      
-    </body>
+    <!--FIGURE OUT HOW TO INSERT THE PREVIEWS OF THE BLOGS HERE-->
+    <!--photograph-->
+    <!--timestamp-->
+    <!--title of the blog-->
     
-  </html>
+  </body>
+  
+</html>
