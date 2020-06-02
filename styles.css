@@ -50,3 +50,20 @@ p {
   background: salmon;
   border: 3px solid brown;
 }
+
+.color-strip {
+  background-color: LightBlue;
+  width: 100%; height: 10%;
+}
+
+.nav {
+
+}
+
+#navbar{
+  background-color: AliceBlue;
+}
+
+#main-image{
+  width: 100%; height: 40vh;
+}
