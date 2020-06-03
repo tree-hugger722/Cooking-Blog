@@ -1,5 +1,6 @@
 p {
   font-size: 24px;
+  font-family: 'Ropa Sans', sans-serif;
 }
 
 .click-button {
@@ -23,7 +24,7 @@ p {
 /* We can apply CSS selectors with rules */
 /* This applies to all the descendant of items with the container class container which are p*/
 .container p {
-  color: purple;
+  color: white;
 }
 
 /* This applies to all the immediate children of items of class container that are p */
@@ -52,16 +53,14 @@ p {
 }
 
 .color-strip {
-  background-color: LightBlue;
-  width: 100%; height: 10%;
-}
-
-.nav {
-
+  background-color: rgb(67, 188, 228);
+  width: 100%; height: 5%;
 }
 
 #navbar{
-  background-color: AliceBlue;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 #main-image{
@@ -78,4 +77,22 @@ p {
 
 .right-align{
   text-align: right;
+}
+
+#site-title{
+  font-family: 'Libre Baskerville', serif;
+  flex-wrap: wrap;
+  font-size: 300px;
+}
+
+#site-text{
+  font-family: 'Caladea', serif;
+  font-size: 30px;
+}
+
+.site-header{
+  width: 100%;
+  height: 15;
+  background-color: rgb(203, 231, 255);
+  position: sticky;
 }
