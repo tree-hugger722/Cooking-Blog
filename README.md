@@ -1,2 +1,2 @@
 # Cooking-Blog
-includes drafts of code for cooking blog project. 
+simple cooking blog // html & css // wso summer 2020
