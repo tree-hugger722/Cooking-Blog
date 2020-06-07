@@ -61,6 +61,48 @@ p {
   align-content: flex-start;
 }
 
+textarea {
+  width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.flex button{
+  border: 2px solid rgb(171, 177, 252);
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.flex ul{
+  display: flex;
+  width:80%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  padding: 5px;
+}
+
+.flex li{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex > li > label {
+  flex: 1 0 100px;
+  max-width: 200px;
+  text-align: start;
+}
+.flex > li > label + * {
+  flex: 1 0 200px;
+}
+
 .site-text{
   font-family: 'Caladea', serif;
   font-size: 30px;
