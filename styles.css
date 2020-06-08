@@ -12,6 +12,7 @@ body{
   justify-content: center;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
+  line-height: 1.30;
 }
 
 .site-header{
@@ -35,7 +36,9 @@ p {
   font-size: 12px;
   font-family: 'Ropa Sans', sans-serif;
   flex-wrap: wrap;
-  max-width: 90%;
+  width: 90%;
+  line-height: 1.30;
+  text-align: center;
 }
 
 .website-image{
@@ -55,7 +58,6 @@ p {
 
 .about-content{
   display: flex;
-  width:90%;
   flex-direction: column;
   justify-content: center;
   align-content: center;
@@ -63,14 +65,14 @@ p {
 
 #about{
   width: 90%;
-  height: auto;
-  overflow: hidden;
-  border: 5px black;
+  height: 500px;
+  object-fit: cover;
+  border: 10px black;
   border-radius: 15px;
 }
 
 textarea {
-  width: 80%;
+  width: 90%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -85,7 +87,7 @@ textarea {
 
 .flex ul{
   display: flex;
-  width:80%;
+  width:90%;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
