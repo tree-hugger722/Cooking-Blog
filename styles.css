@@ -84,8 +84,18 @@ p {
   width: 90%;
   height: 500px;
   object-fit: cover;
-  border: 10px black;
   border-radius: 15px;
+}
+
+.suggest-recipes-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  max-width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: left;
 }
 
 .about-content{
@@ -114,7 +124,6 @@ p {
   margin-right: auto;
   margin-left: auto;
   height: 300px;
-  border: 10px black;
   border-radius: 15px;
 }
 
@@ -123,7 +132,6 @@ p {
   margin-right: auto;
   margin-left: auto;
   height: 300px;
-  border: 10px black;
   border-radius: 15px;
 }
 
@@ -132,7 +140,6 @@ p {
   margin-right: auto;
   margin-left: auto;
   height: 300px;
-  border: 10px black;
   border-radius: 15px;
 }
 
@@ -141,7 +148,6 @@ p {
   margin-right: auto;
   margin-left: auto;
   height: 300px;
-  border: 10px black;
   border-radius: 15px;
 }
 
@@ -150,7 +156,6 @@ p {
   margin-right: auto;
   margin-left: auto;
   height: 300px;
-  border: 10px black;
   border-radius: 15px;
 }
 
@@ -163,7 +168,7 @@ textarea {
 }
 
 .flex button{
-  border: 2px solid rgb(171, 177, 252);
+  border: 2px solid rgb(255, 214, 209);
   border-radius: 4px;
   background-color: #f1f1f1;
 }
@@ -172,7 +177,7 @@ textarea {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   text-align: start;
   padding: 5px;
 }
@@ -233,9 +238,13 @@ textarea {
 
 footer{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: row;
   text-align: center;
+  background-color: rgb(148, 147, 147);
+  width: 100%;
+  border-radius: 15px;
+  color: white;
 }
 
 .center-align{
