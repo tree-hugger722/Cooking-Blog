@@ -15,6 +15,13 @@ body{
   line-height: 1.30;
 }
 
+.site-text{
+  font-family: 'Caladea', serif;
+  font-size: 24px;
+  line-height: 1.30;
+  text-align: left;
+}
+
 .site-header{
   display: flex;
   flex-direction:row;
@@ -55,18 +62,65 @@ p {
   border-radius: 15px;
 }
 
-
 .about-content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  width: 90%;
+}
+
+.about-images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  border: 10px black;
+  border-radius: 15px;
 }
 
 #about{
-  width: 90%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   height: 500px;
-  object-fit: cover;
+  border: 10px black;
+  border-radius: 15px;
+}
+
+#emma-cooking{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 500px;
+  border: 10px black;
+  border-radius: 15px;
+}
+
+#garden-image{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 500px;
+  border: 10px black;
+  border-radius: 15px;
+}
+
+#myriam-gardening{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 500px;
+  border: 10px black;
+  border-radius: 15px;
+}
+
+#noodles{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  height: 500px;
   border: 10px black;
   border-radius: 15px;
 }
@@ -122,12 +176,6 @@ textarea {
 .nav-list{
   color: rgb(71, 71, 71);
   font-size: 24px;
-}
-
-.site-text{
-  font-family: 'Caladea', serif;
-  font-size: 24px;
-  line-height: 1.30;
 }
 
 footer{
