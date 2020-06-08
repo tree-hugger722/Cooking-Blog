@@ -1,44 +1,59 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-    <title>taste of cle</title>
-  </head>
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <title>taste of cle</title>
+</head>
   
-  <body>
-    <!--color strip-->
-    <div class="color-strip">
-    </div>
+<body>
+  <!--color strip-->
+  <div class="color-strip">
+  </div>
 
-    <!--title-->
-    <div class="site-header">
-          <h1 id="site-title"><a href="index.html">Taste of CLE</a></h1>
+  <!--title-->
+  <div class="site-header">
+    <h1 id="site-title"><a href="index.html">Taste of CLE</a></h1>
 	  
-	  <!--nav bar-->
-	      <nav id="nav-bar">
-		      <ul class=nav-list>
-          <li><a href="suggest-recipes.html">Suggest Recipes | </a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
-    </div>
+	<!--nav bar-->
+	  <nav id="nav-bar">
+		  <ul class=nav-list>
+        <li><a href="suggest-recipes.html">Suggest Recipes | </a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
 
-    <!--Suggest Recipes Form-->
+  <!--Suggest Recipes Form-->
+  <div>
+    <h2 class="site-text">Suggest Recipes</h2>
+    <p>We welcome any and all recipe suggestions! Just fill out the following form and we'll take a look.</p>
+
+    <!--form-->
+    <form>
+      <ul class="flex">
+        <li><label for="name">Your Name: </label><input type="text" id="name"></li>
+        <li><label for="email">Email: </label><input type="email" id="email"></li>
+        <li><label for="recipe-name">Recipe Name: </label><input type="text" id="recipe-name"></li>
+        <li><label for="recipe">Recipe: </label><textarea rows="8" id="recipe"></textarea></li>
+        <li><button type="submit">Submit</button></li>
+      </ul>
+    </form>
+  </div>
+
+</body>
+
+<div>
+  <footer>
     <div>
-      <h2 class="site-text">Suggest Recipes</h2>
-      <p>We welcome any and all recipe suggestions! Just fill out the following form and we'll take a look.</p>
-
-      <!--form-->
-      <form>
-        <ul class="flex">
-          <li><label for="name">Your Name: </label><input type="text" id="name"></li>
-          <li><label for="email">Email: </label><input type="email" id="email"></li>
-          <li><label for="recipe-name">Recipe Name: </label><input type="text" id="recipe-name"></li>
-          <li><label for="recipe">Recipe: </label><textarea rows="8" id="recipe"></textarea></li>
-           <li><button type="submit">Submit</button></li>
-        </ul>
-      </form>
-
-
+      <p>Contact us:</p>
+      <p>emmaneil722@gmail.com</p>
+      <p>myriamraynierneil@gmail.com</p>
     </div>
-    
+    <div>
+      <p>Copyright (c) 2020</p>
+      <p>Emma Neil</p>
+    </div>
+  </footer>
+</div>
+
+</html>
