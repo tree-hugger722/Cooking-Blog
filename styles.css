@@ -34,7 +34,7 @@ body{
 .site-header{
   display: flex;
   flex-direction:row;
-  width: 90%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   height: 15%;
@@ -45,9 +45,8 @@ p {
   font-size: 16px;
   font-family: 'Caladea', serif;
   flex-wrap: wrap;
-  width: 90%;
-  line-height: 1;
-  text-align: center;
+  line-height: 1.30;
+  text-align: left;
 }
 
 #site-title{
@@ -94,24 +93,27 @@ p {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 90%;
+  max-width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: left;
 }
 
 .about-images{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
-  width: 90%;
-  border: 10px black;
-  border-radius: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  max-width: 100%;
 }
 
 #about{
   display: block;
   margin-right: auto;
   margin-left: auto;
-  height: 500px;
+  height: 300px;
   border: 10px black;
   border-radius: 15px;
 }
@@ -120,7 +122,7 @@ p {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  height: 500px;
+  height: 300px;
   border: 10px black;
   border-radius: 15px;
 }
@@ -129,7 +131,7 @@ p {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  height: 500px;
+  height: 300px;
   border: 10px black;
   border-radius: 15px;
 }
@@ -138,7 +140,7 @@ p {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  height: 500px;
+  height: 300px;
   border: 10px black;
   border-radius: 15px;
 }
@@ -147,7 +149,7 @@ p {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  height: 500px;
+  height: 300px;
   border: 10px black;
   border-radius: 15px;
 }
@@ -199,6 +201,7 @@ textarea {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 20px;
   max-width: 400px;
   padding: 10px 15px 10px 15px;
   background-color: rgb(255, 214, 209);
