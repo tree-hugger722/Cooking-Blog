@@ -1,71 +1,89 @@
 <!DOCTYPE html>
-<html lang='en'>
-<head>
-  <link rel="stylesheet" href="styles.css" />
-  <title>taste of cle</title>
-</head>
-  
-<body>
-  <!--color strip-->
-  <div class="color-strip" id="top">
-  </div>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>taste of cle</title>
+  </head>
 
-  <!--title-->
-  <div class="site-header">
-        <h1 id="site-title"><a id="title" href="index.html">Taste <span id="of-in-title">of</span> CLE</a></h1>
-  
-  <!--nav bar-->
+  <body>
+    <!--color strip-->
+    <div class="color-strip" id="top"></div>
+
+    <br />
+
+    <!--title-->
+    <div class="site-header">
+      <h1 id="site-title">
+        <a id="title" href="index.html"
+          >Taste <span id="of-in-title">of</span> CLE</a
+        >
+      </h1>
+
+      <!--nav bar-->
       <nav id="nav-bar">
         <a id="home" href="index.html">Home</a>
-        <a id="suggest-recipes-link" href="suggest-recipes.html">Suggest Recipes</a>
+        <a id="suggest-recipes-link" href="suggest-recipes.html"
+          >Suggest Recipes</a
+        >
         <a id="about-link" href="about.html">About Us</a>
-    </nav>
+      </nav>
+    </div>
+
+    <br />
+
+    <div class="divider"></div>
+
+    <br />
+
+    <!--Suggest Recipes Form-->
+    <div class="suggest-recipes-content">
+      <div>
+        <h2 class="site-text">Suggest Recipes</h2>
+        <p>
+          We welcome any and all recipe suggestions! Just fill out the following
+          form and we'll take a look.
+        </p>
+      </div>
+      <!--form-->
+      <form>
+        <ul class="flex">
+          <li>
+            <label for="name">Your Name: </label><input type="text" id="name" />
+          </li>
+          <li>
+            <label for="email">Email: </label><input type="email" id="email" />
+          </li>
+          <li>
+            <label for="recipe-name">Recipe Name: </label
+            ><input type="text" id="recipe-name" />
+          </li>
+          <li>
+            <label for="recipe">Recipe: </label
+            ><textarea rows="8" id="recipe"></textarea>
+          </li>
+          <li><button type="submit">Submit</button></li>
+        </ul>
+      </form>
+    </div>
+
+    <br />
+
+    <div class="divider"></div>
+
+    <br />
+  </body>
+
+  <div>
+    <footer>
+      <div>
+        <p>Contact us:</p>
+        <p>emmaneil722@gmail.com</p>
+        <p>myriamraynierneil@gmail.com</p>
+      </div>
+      <div>
+        <p>Copyright (c) 2020</p>
+        <p>Emma Neil</p>
+      </div>
+    </footer>
   </div>
-  
-  <br>
-
-  <div class="divider"></div>
-
-  <br>
-
-  <!--Suggest Recipes Form-->
-  <div class="suggest-recipes-content">
-    <div>
-      <h2 class="site-text">Suggest Recipes</h2>
-      <p>We welcome any and all recipe suggestions! Just fill out the following form and we'll take a look.</p>
-    </div>
-    <!--form-->
-    <form>
-      <ul class="flex">
-        <li><label for="name">Your Name: </label><input type="text" id="name"></li>
-        <li><label for="email">Email: </label><input type="email" id="email"></li>
-        <li><label for="recipe-name">Recipe Name: </label><input type="text" id="recipe-name"></li>
-        <li><label for="recipe">Recipe: </label><textarea rows="8" id="recipe"></textarea></li>
-        <li><button type="submit">Submit</button></li>
-      </ul>
-    </form>
-  </div>
-
-  <br>
-    
-  <div class="divider"></div>
-
-  <br>
-
-</body> 
-
-<div>
-  <footer>
-    <div>
-      <p>Contact us:</p>
-      <p>emmaneil722@gmail.com</p>
-      <p>myriamraynierneil@gmail.com</p>
-    </div>
-    <div>
-      <p>Copyright (c) 2020</p>
-      <p>Emma Neil</p>
-    </div>
-  </footer>
-</div>
-
 </html>
