@@ -8,6 +8,16 @@
   border-radius: 15px;
 }
 
+.entry-divider {
+  display: block;
+  background-color: rgba(128, 128, 128, 0.137);
+  width: 80%;
+  height: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 1px;
+}
+
 .divider {
   display: block;
   background-color: rgb(189, 48, 48);
@@ -101,59 +111,26 @@ p {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  max-width: 100%;
-  margin-left: 100px;
-  margin-right: 100px;
-  text-align: left;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-images {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-left: 50px;
-  margin-right: 50px;
-  max-width: 100%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#about {
+.about-image-individual {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  height: 300px;
-  border-radius: 15px;
-}
-
-#emma-cooking {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  height: 300px;
-  border-radius: 15px;
-}
-
-#garden-image {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  height: 300px;
-  border-radius: 15px;
-}
-
-#myriam-gardening {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  height: 300px;
-  border-radius: 15px;
-}
-
-#noodles {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  height: 300px;
+  margin: 0px;
+  padding: 10px 10px;
+  height: 250px;
   border-radius: 15px;
 }
 
@@ -256,10 +233,38 @@ footer {
 .blog-post-title {
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(255, 0, 0, 0.116);
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 10px;
+  text-decoration: underline;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.image-text-block {
+  margin-left: auto;
+  margin-right: auto;
+  flex: 5;
+}
+
+.blog-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-image-individual {
+  display: block;
+  padding: 10px;
+  max-height: 300px;
+  border-radius: 15px;
 }
 
 .date-author {
@@ -269,17 +274,8 @@ footer {
   flex: 1;
 }
 
-.blog-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-#blog-text {
+.blog-text {
   text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  flex: 5;
 }
 
 #date {
